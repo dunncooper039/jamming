@@ -11,12 +11,15 @@ header {
   padding: 20px 0px;
   margin: 0px auto;
   display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 content{
   display: grid;
   justify-content: center;
   justify-items: center;
   grid-template-columns: 1fr;
+  align-content: space-around;
+  justify-content: space-around;
 }
 h1, h2 {
   color: #FF5E00;
@@ -68,4 +71,9 @@ button {
   margin: 20px auto;
   width: 25%;
   align-content: center;
+}
+#logo {
+  height: 128px;
+  width: 128px;
+  margin: auto auto;
 }
