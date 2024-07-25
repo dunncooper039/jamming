@@ -10,7 +10,7 @@ function App() {
         <h1>Jamming</h1>
         <h2>A Spotify playlist creator</h2>
       </div>
-      <a href="dunncooper039.github.io"><h2>Home</h2></a>
+      <a href="https://dunncooper039.github.io"><h2>Home</h2></a>
     </header>
     </div>
   );
