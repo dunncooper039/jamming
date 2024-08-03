@@ -1,8 +1,10 @@
 import React from "react";
 
-function Track() {
+function Track(props) {
   return (
-    <div></div>
+    <div>
+      <h3>{props.track}</h3>
+    </div>
   );
 }
 
